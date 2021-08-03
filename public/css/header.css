@@ -1,10 +1,6 @@
 header{
     background-color: var(--color-rojo);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding: 20px 10px;
-    height: 180px;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -16,19 +12,9 @@ header a{
 }
 
 @media (min-width:768px) {
-    header{
-        flex-direction: row;
-        height: 80px;
-        flex-wrap: wrap;
-    }
+
     header .logo{
         width: 20%;
-    }
-    header nav{
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     header ul{
         display: flex;
@@ -46,8 +32,5 @@ header a{
 
     header .logo img{
         text-align: center;
-    }
-    header nav{
-        width: 90%;
     }
 }

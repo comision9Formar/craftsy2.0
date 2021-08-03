@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Iphone SE",
+    "precio": 25000,
+    "descripcion": "lorem ipsum dolor amet sit.",
+    "imagen": "img-phone-01.jpg",
+    "categoria": "laptop"
+  },
+  {
+    "id": 2,
+    "nombre": "Huawei P9 lite",
+    "precio": 20000,
+    "descripcion": "lorem ipsum dolor amet sit.",
+    "imagen": "img-phone-02.jpg",
+    "categoria": "tablet"
+  },
+  {
+    "id": 3,
+    "nombre": "Moto E4 plus",
+    "precio": 18000,
+    "descripcion": "lorem ipsum dolor amet sit.",
+    "imagen": "img-phone-03.jpg",
+    "categoria": "smartphone"
+  },
+  {
+    "id": 4,
+    "nombre": "LG K9",
+    "precio": 27000,
+    "descripcion": "lorem ipsum dolor amet sit.",
+    "imagen": "img-phone-01.jpg",
+    "categoria": "tablet"
+  },
+  {
+    "id": 5,
+    "nombre": "Samsung Pocket",
+    "precio": 25000,
+    "descripcion": "lorem ipsum dolor amet sit.",
+    "imagen": "img-phone-02.jpg",
+    "categoria": "smartphone"
+  },
+  {
+    "id": 6,
+    "nombre": "Xiomi Redmi Note 8",
+    "precio": 28000,
+    "descripcion": "lorem ipsum dolor amet sit.",
+    "imagen": "img-phone-03.jpg",
+    "categoria": "laptop"
+  },
+  {
+    "id": 7,
+    "nombre": "Samsung S20",
+    "precio": 20000,
+    "descripcion": "El mejor celular del mundo!!!, pero de juguete",
+    "categoria": "Smartphone",
+    "imagen": "img-phone-03.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Samsung A20",
+    "precio": 30000,
+    "descripcion": "Lorem ipsum dolor amet sit.",
+    "categoria": "Tablet",
+    "imagen": "img-phone-03.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Motorola X-Play",
+    "precio": 50000,
+    "descripcion": "Este sí es el mejor celular",
+    "categoria": "Laptop",
+    "imagen": "img-phone-03.jpg"
+  }
+]

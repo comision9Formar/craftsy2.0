@@ -7,16 +7,18 @@
 /* productos */
 
 .home .productos{
-    background-color: #fff;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 .home .productos article{
     width: 90%;
     margin: 20px 0;
+    background-color: #fff;
+    padding: 10px;
 }
 .home .productos article img{
     width: 100%;
