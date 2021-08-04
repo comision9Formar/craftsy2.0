@@ -3,17 +3,17 @@
     "id": 1,
     "nombre": "Iphone SE",
     "precio": 25000,
-    "descripcion": "lorem ipsum dolor amet sit.",
+    "descripcion": "El iPhone SE viene con el chip A13 Bionic, modo Retrato, video 4K, Touch ID, pantalla Retina HD y una batería de gran duración en un diseño de 4.7”.",
     "imagen": "img-phone-01.jpg",
-    "categoria": "laptop"
+    "categoria": "Laptop"
   },
   {
     "id": 2,
     "nombre": "Huawei P9 lite",
     "precio": 20000,
-    "descripcion": "lorem ipsum dolor amet sit.",
+    "descripcion": "El P9 Lite mantiene algunas de las características del P9 como la pantalla Full HD de 5.2 pulgadas, el lector de huellas dactilares y la cámara frontal de 8Mpx",
     "imagen": "img-phone-02.jpg",
-    "categoria": "tablet"
+    "categoria": "Tablet"
   },
   {
     "id": 3,
@@ -46,14 +46,6 @@
     "descripcion": "lorem ipsum dolor amet sit.",
     "imagen": "img-phone-03.jpg",
     "categoria": "laptop"
-  },
-  {
-    "id": 7,
-    "nombre": "Samsung S20",
-    "precio": 20000,
-    "descripcion": "El mejor celular del mundo!!!, pero de juguete",
-    "categoria": "Smartphone",
-    "imagen": "img-phone-03.jpg"
   },
   {
     "id": 8,

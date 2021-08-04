@@ -3,10 +3,14 @@ const app = express();
 const path = require('path');
 const port = 3030;
 
-/* manejo de formularios */
+const methodOverride = require('method-override');
 
+/* manejo de formularios */
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
+
+/* configura métodos PUT y DELETE */
+app.use(methodOverride('_method'));
 
 /* routing */
 const mainRouter = require('./routes/main');

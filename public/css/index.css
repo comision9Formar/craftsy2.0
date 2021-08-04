@@ -27,12 +27,7 @@
     margin: 10px 0;
 }
 .home .productos article a{
-    background-color: var(--color-rojo);
-    color: #fff;
     text-transform: uppercase;
-    padding: 8px;
-    display: inline-block;
-    margin: 10px 0;
 }
 
 /* aside - generales */
