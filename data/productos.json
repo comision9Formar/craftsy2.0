@@ -62,5 +62,13 @@
     "descripcion": "Este sí es el mejor celular",
     "categoria": "Laptop",
     "imagen": "img-phone-03.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Samsung A12",
+    "precio": 44999,
+    "descripcion": "Lorem ipsum dolor amet sit.",
+    "categoria": "Smartphone",
+    "imagen": "img-phone-1628544532732.png"
   }
 ]

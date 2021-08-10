@@ -5,7 +5,7 @@
     <%- include('./partials/header') %> 
     <main>
         <h1>CARGA DE PRODUCTO</h1>
-        <form action="" method="POST">
+        <form action="" method="POST" enctype="multipart/form-data">
             <div class="box-form">
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" id="nombre">
@@ -17,6 +17,10 @@
             <div class="box-form">
                 <label for="precio">Precio</label>
                 <input type="number" name="precio" id="precio">
+            </div>
+            <div class="box-form">
+                <label for="imagen">Imagen</label>
+                <input type="file" name="imagen" id="imagen">
             </div>
             <div class="box-form">
                 <h4>Categoría</h4>

@@ -22,7 +22,7 @@ module.exports = {
             precio : +precio,
             descripcion,
             categoria,
-            imagen : "img-phone-03.jpg"
+            imagen : req.file ? req.file.filename : 'default-image.png'
         }
  
         productos.push(producto)
