@@ -2,13 +2,19 @@ header{
     background-color: var(--color-rojo);
     padding: 20px 10px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 header a{
     text-transform: uppercase;
     color: #fff;
-   
+    line-height: 20px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+header a:hover{
+    background-color: tomato;
 }
 
 @media (min-width:768px) {

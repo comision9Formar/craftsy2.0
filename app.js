@@ -30,5 +30,11 @@ app.set('view engine','ejs');
 app.use(express.static('public'));
 
 
+app.use((req,res,next) => {
+    res.status(404).render('page-404',{
+        title: "Página no encontrada"
+    });
+    next();
+})
 
 app.listen(port,()=> console.log('Servidor corriendo en el puerto ' + port))

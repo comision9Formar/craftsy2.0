@@ -3,25 +3,9 @@
     "id": 1,
     "nombre": "Iphone SE",
     "precio": 25000,
-    "descripcion": "El iPhone SE viene con el chip A13 Bionic, modo Retrato, video 4K, Touch ID, pantalla Retina HD y una batería de gran duración en un diseño de 4.7”.",
+    "descripcion": "lorem ipsum dolor amet sit.\r\n\r\n",
     "imagen": "img-phone-01.jpg",
-    "categoria": "Laptop"
-  },
-  {
-    "id": 2,
-    "nombre": "Huawei P9 lite",
-    "precio": 20000,
-    "descripcion": "El P9 Lite mantiene algunas de las características del P9 como la pantalla Full HD de 5.2 pulgadas, el lector de huellas dactilares y la cámara frontal de 8Mpx",
-    "imagen": "img-phone-02.jpg",
-    "categoria": "Tablet"
-  },
-  {
-    "id": 3,
-    "nombre": "Moto E4 plus",
-    "precio": 18000,
-    "descripcion": "lorem ipsum dolor amet sit.",
-    "imagen": "img-phone-03.jpg",
-    "categoria": "smartphone"
+    "categoria": "nuevos"
   },
   {
     "id": 4,
@@ -29,46 +13,110 @@
     "precio": 27000,
     "descripcion": "lorem ipsum dolor amet sit.",
     "imagen": "img-phone-01.jpg",
-    "categoria": "tablet"
+    "categoria": "reciclados"
   },
   {
     "id": 5,
     "nombre": "Samsung Pocket",
     "precio": 25000,
     "descripcion": "lorem ipsum dolor amet sit.",
-    "imagen": "img-phone-02.jpg",
-    "categoria": "smartphone"
+    "imagen": "img-phone-02.png",
+    "categoria": "nuevos"
   },
   {
     "id": 6,
     "nombre": "Xiomi Redmi Note 8",
     "precio": 28000,
     "descripcion": "lorem ipsum dolor amet sit.",
-    "imagen": "img-phone-03.jpg",
-    "categoria": "laptop"
+    "imagen": "img-phone-03.webp",
+    "categoria": "reciclados"
   },
   {
     "id": 8,
     "nombre": "Samsung A20",
     "precio": 30000,
     "descripcion": "Lorem ipsum dolor amet sit.",
-    "categoria": "Tablet",
-    "imagen": "img-phone-03.jpg"
+    "categoria": "usados",
+    "imagen": "img-phone-03.webp"
   },
   {
     "id": 9,
     "nombre": "Motorola X-Play",
     "precio": 50000,
     "descripcion": "Este sí es el mejor celular",
-    "categoria": "Laptop",
-    "imagen": "img-phone-03.jpg"
+    "categoria": "reciclados",
+    "imagen": "img-phone-03.webp"
   },
   {
     "id": 10,
     "nombre": "Samsung A12",
     "precio": 44999,
     "descripcion": "Lorem ipsum dolor amet sit.",
-    "categoria": "Smartphone",
+    "categoria": "reciclados",
     "imagen": "img-phone-1628544532732.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Samsung A71",
+    "precio": 60000,
+    "descripcion": "Lorem ipsum dolor amet sit.",
+    "categoria": "reciclados",
+    "imagen": "img-phone-1628626270966.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Xiomi Redmi Note 8",
+    "precio": 28000,
+    "descripcion": "lorem ipsum dolor amet sit.",
+    "imagen": "img-phone-03.webp",
+    "categoria": "reciclados"
+  },
+  {
+    "id": 13,
+    "nombre": "Samsung A20",
+    "precio": 30000,
+    "descripcion": "Lorem ipsum dolor amet sit.",
+    "categoria": "reciclados",
+    "imagen": "img-phone-03.webp"
+  },
+  {
+    "id": 14,
+    "nombre": "Motorola X-Play",
+    "precio": 50000,
+    "descripcion": "Este sí es el mejor celular",
+    "categoria": "reciclados",
+    "imagen": "img-phone-03.webp"
+  },
+  {
+    "id": 15,
+    "nombre": "Samsung A12",
+    "precio": 44999,
+    "descripcion": "Lorem ipsum dolor amet sit.",
+    "categoria": "reciclados",
+    "imagen": "img-phone-1628544532732.png"
+  },
+  {
+    "id": 16,
+    "nombre": "Samsung A71",
+    "precio": 60000,
+    "descripcion": "Lorem ipsum dolor amet sit.",
+    "categoria": "reciclados",
+    "imagen": "img-phone-1628626270966.png"
+  },
+  {
+    "id": 17,
+    "nombre": "Nokia 1100",
+    "precio": 90000,
+    "descripcion": "El mejor de todos",
+    "categoria": "nuevos",
+    "imagen": "img-phone-1629835173675.png"
+  },
+  {
+    "id": 18,
+    "nombre": "Motorola G5",
+    "precio": 1500,
+    "descripcion": "Este esta re bueno",
+    "categoria": "nuevos",
+    "imagen": "default-image.png"
   }
 ]

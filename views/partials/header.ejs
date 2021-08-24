@@ -7,56 +7,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Smartphones
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <% productos.forEach(producto => { %>
-                    <% if (producto.categoria === "smartphone") { %>
-                      <li><a class="dropdown-item" href="#"><%= producto.nombre %> </a></li>
-                    <% } %>
-                  <% }) %>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Tablets
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <% productos.forEach(producto => { %>
-                    <% if (producto.categoria === "tablet") { %>
-                      <li><a class="dropdown-item" href="#"><%= producto.nombre %> </a></li>
-                    <% } %>
-                  <% }) %>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Computadoras
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <% productos.forEach(producto => { %>
-                    <% if (producto.categoria === "laptop") { %>
-                      <li><a class="dropdown-item" href="#"><%= producto.nombre %> </a></li>
-                    <% } %>
-                  <% }) %>
-                </ul>
-              </li>
+              <li><a class="nav-link" href="#">Smartphones </a></li>
+
+              <li><a class="nav-link" href="#">Tablets </a></li>
+
+                <li><a class="nav-link" href="#">Computadoras </a></li>
+
             </ul>
             <form class="d-flex" action="/search" >
                 <input class="form-control me-2" type="search" placeholder="Buscar..." name="busqueda">
                 <button class="btn btn-outline-light" type="submit">Buscar</button>
               </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Admin
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="/products/add">Agregar producto </a></li>
-                </ul>
-              </li>
+              <li><a class="nav-link" href="/admin">Admin</a></li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   User

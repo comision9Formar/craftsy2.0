@@ -4,6 +4,15 @@
     justify-content: space-around;
 }
 
+/* banner */
+
+.home .carousel-item {
+    height: 355px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 /* productos */
 
 .home .productos{
@@ -19,10 +28,17 @@
     margin: 20px 0;
     background-color: #fff;
     padding: 10px;
+    position: relative;
 }
-.home .productos article img{
+.home .productos article img.photo{
     width: 100%;
 }
+.home .productos article img.img-discount{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
 .home .productos article h4{
     margin: 10px 0;
 }
@@ -76,6 +92,10 @@
 
 .home aside .ads img{
     width: 100%;
+}
+
+.glider{
+    overflow: hidden;
 }
 
 
