@@ -20,6 +20,17 @@
               </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li><a class="nav-link" href="/admin">Admin</a></li>
+              <% if (locals.userLogin) { %>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <%= locals.userLogin.nombre %> 
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/users/profile">Mi perfil</a></li>
+                    <li><a class="dropdown-item" href="/users/logout">Cerrar sesión</a></li>
+                  </ul>
+                </li>
+              <% } else { %>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   User
@@ -29,6 +40,7 @@
                   <li><a class="dropdown-item" href="/users/register">Register </a></li>
                 </ul>
               </li>
+              <% } %>
               </ul>
            
           </div>

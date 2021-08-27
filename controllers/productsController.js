@@ -48,7 +48,6 @@ module.exports = {
     detail : (req,res) => {
         let producto = productos.find(producto => producto.id === +req.params.id)
             return res.render('productDetail',{
-                productos,
                 producto,
                 capitalizeOneLetter
             })

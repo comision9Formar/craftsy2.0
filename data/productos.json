@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "nombre": "Iphone SE",
-    "precio": 25000,
-    "descripcion": "lorem ipsum dolor amet sit.\r\n\r\n",
-    "imagen": "img-phone-01.jpg",
-    "categoria": "nuevos"
-  },
-  {
     "id": 4,
     "nombre": "LG K9",
     "precio": 27000,
@@ -32,27 +24,11 @@
     "categoria": "reciclados"
   },
   {
-    "id": 8,
-    "nombre": "Samsung A20",
-    "precio": 30000,
-    "descripcion": "Lorem ipsum dolor amet sit.",
-    "categoria": "usados",
-    "imagen": "img-phone-03.webp"
-  },
-  {
-    "id": 9,
-    "nombre": "Motorola X-Play",
-    "precio": 50000,
-    "descripcion": "Este sí es el mejor celular",
-    "categoria": "reciclados",
-    "imagen": "img-phone-03.webp"
-  },
-  {
     "id": 10,
     "nombre": "Samsung A12",
     "precio": 44999,
     "descripcion": "Lorem ipsum dolor amet sit.",
-    "categoria": "reciclados",
+    "categoria": "usados",
     "imagen": "img-phone-1628544532732.png"
   },
   {
@@ -70,14 +46,6 @@
     "descripcion": "lorem ipsum dolor amet sit.",
     "imagen": "img-phone-03.webp",
     "categoria": "reciclados"
-  },
-  {
-    "id": 13,
-    "nombre": "Samsung A20",
-    "precio": 30000,
-    "descripcion": "Lorem ipsum dolor amet sit.",
-    "categoria": "reciclados",
-    "imagen": "img-phone-03.webp"
   },
   {
     "id": 14,
@@ -110,13 +78,5 @@
     "descripcion": "El mejor de todos",
     "categoria": "nuevos",
     "imagen": "img-phone-1629835173675.png"
-  },
-  {
-    "id": 18,
-    "nombre": "Motorola G5",
-    "precio": 1500,
-    "descripcion": "Este esta re bueno",
-    "categoria": "nuevos",
-    "imagen": "default-image.png"
   }
 ]

@@ -4,6 +4,8 @@ const path = require('path');
 const port = 3030;
 
 const methodOverride = require('method-override');
+const session = require('express-session');
+const localsUserCheck = require('./middlewares/localsUserCheck')
 
 /* manejo de formularios */
 app.use(express.urlencoded({extended: false}));
@@ -11,6 +13,14 @@ app.use(express.json());
 
 /* configura métodos PUT y DELETE */
 app.use(methodOverride('_method'));
+
+/* configura session */
+app.use(session({
+    secret : "Craftsy for ever",
+}));
+
+/* envia los datos del usuario logueado al cliente */
+app.use(localsUserCheck)
 
 /* routing */
 const mainRouter = require('./routes/main');
